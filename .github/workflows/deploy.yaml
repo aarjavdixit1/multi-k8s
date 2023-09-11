@@ -16,7 +16,7 @@ jobs:
       - run: docker build -t aarjavdixit1/multi-server ./server
       - run: docker build -t aarjavdixit1/multi-worker ./worker
 
-      - run: docker push aarjavdixit1/multi-client
+      - run: docker push aarjavdixit1/multi-client:v4
       - run: docker push aarjavdixit1/multi-nginx
       - run: docker push aarjavdixit1/multi-server
       - run: docker push aarjavdixit1/multi-worker
